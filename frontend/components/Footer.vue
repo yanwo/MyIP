@@ -37,9 +37,6 @@
             <p>
               {{ t('about.product1') }}
             </p>
-            <p>
-              {{ t('about.product2') }}
-            </p>
           </div>
           <h5>{{ t('about.contactTitle') }}</h5>
           <div v-html="t('about.contact')" class="mb-3">
