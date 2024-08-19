@@ -11,7 +11,7 @@ import { trackEvent } from '@/utils/use-analytics';
 
 
 // 定义数据
-const isDesktopChrome = ref(true);
+const isDesktopChrome = ref(false);
 const isAndroidChrome = ref(false);
 const isMacSafari = ref(false);
 const isIosSafari = ref(false);
